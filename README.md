@@ -26,3 +26,7 @@ Download and Import the package [here](https://github.com/antonpantev/unity-tile
 `Window` > `Tile Mesh Paint`
 
 * Click on the Mesh to paint a tile
+
+#### Attribution
+Example Tiles were created by Kicked in Teeth:  
+https://kicked-in-teeth.itch.io/pico-8-tiles
