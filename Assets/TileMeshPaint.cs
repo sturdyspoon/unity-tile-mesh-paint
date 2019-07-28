@@ -8,8 +8,7 @@ public class TileMeshPaint : EditorWindow
 
     Sprite tile;
     Vector3 tileCenter;
-    //TODO make half size a vector2 for when x and y are different
-    float tileHalfSize;
+    Vector2 tileHalfSize;
 
     string[] rotationOptions = new string[] { "0", "90", "180", "270" };
     int rotationIndex = 0;
@@ -203,14 +202,39 @@ public class TileMeshPaint : EditorWindow
 
         Vector2 c = Vector2.zero;
 
+        float minX = Mathf.Infinity;
+        float minY = Mathf.Infinity;
+        float maxX = Mathf.NegativeInfinity;
+        float maxY = Mathf.NegativeInfinity;
+
         foreach (Vector2 v in s.uv)
         {
             c += v;
+
+            if (v.x < minX)
+            {
+                minX = v.x;
+            }
+
+            if (v.x > maxX)
+            {
+                maxX = v.x;
+            }
+
+            if (v.y < minY)
+            {
+                minY = v.y;
+            }
+
+            if (v.y > maxY)
+            {
+                maxY = v.y;
+            }
         }
 
         tileCenter = c / 4f;
 
-        tileHalfSize = (s.uv[1].x - s.uv[0].x) / 2f;
+        tileHalfSize = new Vector2(maxX - minX, maxY - minY) / 2f;
     }
 
     void OnSelectionChange()
@@ -218,7 +242,7 @@ public class TileMeshPaint : EditorWindow
         Repaint();
         tile = null;
         tileCenter = Vector3.zero;
-        tileHalfSize = 0f;
+        tileHalfSize = Vector2.zero;
     }
 
     void OnDestroy()
@@ -430,19 +454,19 @@ public class TileMeshPaint : EditorWindow
 
         if (angle >= 0 && angle < 90)
         {
-            disp = new Vector2(tileHalfSize, tileHalfSize);
+            disp = new Vector2(tileHalfSize.x, tileHalfSize.y);
         }
         else if (angle >= -90 && angle < 0)
         {
-            disp = new Vector2(-tileHalfSize, tileHalfSize);
+            disp = new Vector2(-tileHalfSize.x, tileHalfSize.y);
         }
         else if (angle >= -180 && angle < -90)
         {
-            disp = new Vector2(-tileHalfSize, -tileHalfSize);
+            disp = new Vector2(-tileHalfSize.x, -tileHalfSize.y);
         }
         else
         {
-            disp = new Vector2(tileHalfSize, -tileHalfSize);
+            disp = new Vector2(tileHalfSize.x, -tileHalfSize.y);
         }
 
         float rotationAngle = int.Parse(rotationOptions[rotationIndex]);
