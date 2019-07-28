@@ -38,6 +38,18 @@ TextureImporter:
   - first:
       213: 1046900033660255796
     second: pico-8-tiles_11
+  - first:
+      213: 8299744114508027866
+    second: pico-8-tiles_12
+  - first:
+      213: -4218392745942755752
+    second: pico-8-tiles_13
+  - first:
+      213: 5911003202940780218
+    second: pico-8-tiles_14
+  - first:
+      213: 1167187275461814087
+    second: pico-8-tiles_15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -109,12 +121,12 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 8192
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 0
+    overridden: 1
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: iPhone
@@ -168,7 +180,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 21
+        y: 31
         width: 8
         height: 8
       alignment: 0
@@ -178,7 +190,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 838a8b0ba0a324a4bac893c3e0cddc03
+      spriteID: e899368de42714f3cb578cb36280b278
       internalID: 3655486589027863071
       vertices: []
       indices: 
@@ -189,7 +201,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 11
-        y: 21
+        y: 31
         width: 8
         height: 8
       alignment: 0
@@ -199,7 +211,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f7ce45bcda0848d99058ad759bde20a
+      spriteID: 4b6d7e4d581cb4813b6e86a07543ebd3
       internalID: -7157524349167757827
       vertices: []
       indices: 
@@ -210,7 +222,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 21
-        y: 21
+        y: 31
         width: 8
         height: 8
       alignment: 0
@@ -220,7 +232,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b70ae060797024166bb25395b1adc188
+      spriteID: 6a6670db114384ec1b02df918a7eaba2
       internalID: -6748934519773505034
       vertices: []
       indices: 
@@ -231,7 +243,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 31
-        y: 21
+        y: 31
         width: 8
         height: 8
       alignment: 0
@@ -241,7 +253,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de0fd4fd4fb0d48aabe68bc9c48cdb3a
+      spriteID: 0c6fed1a263da43449498d832d7e0a0c
       internalID: 3918476261578823359
       vertices: []
       indices: 
@@ -252,6 +264,90 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
+        y: 21
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ce408ab8be14ef1aeef5af063058fe
+      internalID: -1287206713685859413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pico-8-tiles_5
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 21
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c89393c08aee4778b079feb3dfd0f19
+      internalID: 4174756553275914009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pico-8-tiles_6
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 21
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49e43f04d3444d25a11cb2a72ab8ab4
+      internalID: -6410449482883860319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pico-8-tiles_7
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 21
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc679b2a7d2694bf68983c2b89d84ab6
+      internalID: 7151065647348823896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pico-8-tiles_8
+      rect:
+        serializedVersion: 2
+        x: 1
         y: 11
         width: 8
         height: 8
@@ -262,14 +358,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d1d61f0100144b758ae12e91325b956
-      internalID: -1287206713685859413
+      spriteID: 4f1dc6f7e3f2042baabcbce4fa50de9f
+      internalID: -7705262701634259310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pico-8-tiles_5
+      name: pico-8-tiles_9
       rect:
         serializedVersion: 2
         x: 11
@@ -283,14 +379,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9a89809550ca4eeb9da4b6a0ffed78c
-      internalID: 4174756553275914009
+      spriteID: 719a28d1fa539431c80502db768bc62f
+      internalID: 4280922202839928994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pico-8-tiles_6
+      name: pico-8-tiles_10
       rect:
         serializedVersion: 2
         x: 21
@@ -304,14 +400,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1af0c5c7abaf49f09d58a62390d2b20
-      internalID: -6410449482883860319
+      spriteID: 7247ae04733b340bc879b897fdc61a34
+      internalID: 5074504345573489235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pico-8-tiles_7
+      name: pico-8-tiles_11
       rect:
         serializedVersion: 2
         x: 31
@@ -325,14 +421,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15ec19f561af1477c93069f9d56344ab
-      internalID: 7151065647348823896
+      spriteID: d1f12b08f5c474e5f84319cd7fa1daf2
+      internalID: 1046900033660255796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pico-8-tiles_8
+      name: pico-8-tiles_12
       rect:
         serializedVersion: 2
         x: 1
@@ -346,14 +442,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67bd0d08574284b68aaef1415ff324e7
-      internalID: -7705262701634259310
+      spriteID: e91a738d625934745ba87f9d281ea20a
+      internalID: 8299744114508027866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pico-8-tiles_9
+      name: pico-8-tiles_13
       rect:
         serializedVersion: 2
         x: 11
@@ -367,14 +463,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed9b8a3ea5be5490686a8d69ad8fb521
-      internalID: 4280922202839928994
+      spriteID: cd1a4ca2451d64a8fbe8639be17f22c5
+      internalID: -4218392745942755752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pico-8-tiles_10
+      name: pico-8-tiles_14
       rect:
         serializedVersion: 2
         x: 21
@@ -388,14 +484,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05de9bb1d160341fdbeaa1b9f5f1d5c2
-      internalID: 5074504345573489235
+      spriteID: 2632343b74d454b5dbb0f51173ba4f77
+      internalID: 5911003202940780218
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pico-8-tiles_11
+      name: pico-8-tiles_15
       rect:
         serializedVersion: 2
         x: 31
@@ -409,8 +505,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9fad903533c94322a833d6c845cff19
-      internalID: 1046900033660255796
+      spriteID: 41f20d52f8a0743eb828952531c4c7b9
+      internalID: 1167187275461814087
       vertices: []
       indices: 
       edges: []

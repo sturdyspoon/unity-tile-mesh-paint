@@ -8,7 +8,7 @@ Download and Import the package here.
 
 Place an Image with your Tiles in your Unity project
 
-Set the Tiles image to use a `Texture Type` of `Sprite` and a `Sprite Mode` of `Multiple` 
+Set the Image to use a `Texture Type` of `Sprite` and a `Sprite Mode` of `Multiple` 
 
 Use the `Sprite Editor` to splice the image into individual tiles
 
