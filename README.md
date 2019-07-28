@@ -4,6 +4,8 @@ A Unity Editor Tool which lets you paint 2D tiles on 3D meshes.
 
 Download and Import the package [here](https://github.com/antonpantev/unity-tile-mesh-paint/raw/master/unity-tile-mesh-paint.unitypackage).
 
+<img src="https://github.com/antonpantev/unity-tile-mesh-paint/raw/master/PreviewImages/ScreenShot.png">
+
 ### How to Set Up a Mesh for Painting
 
 * Add an Image with your Tiles to your Unity project
