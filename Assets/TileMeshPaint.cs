@@ -67,9 +67,9 @@ public class TileMeshPaint : EditorWindow
                 if (tile == s)
                 {
                     EditorGUI.DrawRect(new Rect(x, y, w - (outlineWidth / 2f), outlineWidth), Color.white);
-                    EditorGUI.DrawRect(new Rect(x, y + h - outlineWidth, w - (outlineWidth / 2f), outlineWidth), Color.white);
+                    EditorGUI.DrawRect(new Rect(x, y + h - outlineWidth, w, outlineWidth), Color.white);
                     EditorGUI.DrawRect(new Rect(x, y, outlineWidth, h - (outlineWidth / 2f)), Color.white);
-                    EditorGUI.DrawRect(new Rect(x + w - outlineWidth, y, outlineWidth, h - (outlineWidth / 2f)), Color.white);
+                    EditorGUI.DrawRect(new Rect(x + w - outlineWidth, y, outlineWidth, h), Color.white);
                 }
             }
 
