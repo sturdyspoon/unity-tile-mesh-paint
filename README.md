@@ -6,21 +6,21 @@ Download and Import the package [here](https://github.com/antonpantev/unity-tile
 
 ### How to Set Up a Mesh for Painting
 
-Add an Image with your Tiles to your Unity project
+* Add an Image with your Tiles to your Unity project
 
-Set the Image to use a `Texture Type` of `Sprite` and a `Sprite Mode` of `Multiple` 
+* Set the Image to use a `Texture Type` of `Sprite` and a `Sprite Mode` of `Multiple` 
 
-Use the `Sprite Editor` to splice the image into individual tiles
+* Use the `Sprite Editor` to splice the image into individual tiles
 
-Create a Material and set your Tiles image as the Texture
+* Create a Material and set your Tiles image as the Texture
 
-Create a Cube (or any other mesh you want to paint)
+* Create a Cube (or any other mesh you want to paint)
 
-Drop the Material onto the Cube
+* Drop the Material onto the Cube
 
-Add a Mesh Collider to your Cube (you’ll need to remove any other preexisting colliders like the Box Collider first)
+* Add a Mesh Collider to your Cube (you’ll need to remove any other preexisting colliders like the Box Collider first)
 
-Open the Tile Mesh Paint Window  
+* Open the Tile Mesh Paint Window  
 `Window` > `Tile Mesh Paint`
 
-Click on the Mesh to paint a tile
+* Click on the Mesh to paint a tile
